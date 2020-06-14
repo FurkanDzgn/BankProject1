@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenMRS Runner Homework Class" >
+    <test name="Test Runner">
+        <parameter name="drivername" value="chrome"></parameter>
+        <classes>
+            <class name="Tests.com.OpenMRS.LoginTest.HomeWork"></class>
+        </classes>
+    </test>
+</suite>
